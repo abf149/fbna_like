@@ -1,7 +1,7 @@
 `timescale 1 ns/10 ps  // time-unit = 1 ns, precision = 10 ps
 `include "fbna_pbc.v"
 
-module fbna_pbc_tb; 
+module user_module_fbna_like_tb; 
     
     reg clock;
     reg reset;
